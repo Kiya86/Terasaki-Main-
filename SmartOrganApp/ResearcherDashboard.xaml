@@ -121,7 +121,7 @@
             </Border>
 
             <!-- ══ CONCENTRATION × TIME — 6 channel graphs ══════════════════ -->
-            <TextBlock Text="Time-Concentration plot" FontSize="16"
+            <TextBlock Text="Channel Concentration × Time" FontSize="16"
                        FontWeight="SemiBold" Margin="0,8,0,0"/>
 
             <!-- Row 1: CH1 Glucose-P + CH5 Glucose-B -->

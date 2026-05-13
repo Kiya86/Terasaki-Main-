@@ -220,7 +220,7 @@ public sealed partial class ResearcherDashboard : Page
                 {
                     token.ThrowIfCancellationRequested();
                     await CAMeasureAsync(channel);
-                    await Task.Delay(TimeSpan.FromSeconds(61), token); // Wait 70 seconds (without blocking UI)
+                    await Task.Delay(TimeSpan.FromSeconds(70), token); // Wait 70 seconds (without blocking UI)
                 }
             }
         }
@@ -298,7 +298,7 @@ public sealed partial class ResearcherDashboard : Page
     // PIC ADC 설정값에 맞춰서 수정 필요
     // - ADC가 VDD(3.3V)를 Vref로 쓰면 3.3
     // - FVR 2.048V를 쓰면 2.048
-    private const double AdcVref_V = 3.3;          // PIC 펌웨어: ADC_USE_FVR_REF=1
+    private const double AdcVref_V = 2.048;          // PIC 펌웨어: ADC_USE_FVR_REF=1
 
     private const int AdcMaxCode = 1023;             // 10-bit ADC
 
