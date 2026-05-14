@@ -220,7 +220,7 @@ public sealed partial class ResearcherDashboard : Page
                 {
                     token.ThrowIfCancellationRequested();
                     await CAMeasureAsync(channel);
-                    await Task.Delay(TimeSpan.FromSeconds(61), token); // Wait 70 seconds (without blocking UI)
+                    await Task.Delay(TimeSpan.FromSeconds(63), token); // Wait 70 seconds (without blocking UI)
                 }
             }
         }

@@ -1,0 +1,38 @@
+- Raw data x-axis (ms to sec)
+ Show which channel it is measuring.
+Show time value of received packet
+
+-Time-current graph --> X scale too small
+Maybe one plot in one line (6x1)
+The graph is not cleared.
+
+-Add Time-concentration graph
+
+-Time-concentration.csv file? in the ResearchDashboard.
+
+-In CalibrationPage, we don't need time-concentration.csv
+
+-Time dealy is due to UART + BLE. I checked timelog of ESP from START to END. actual measurement time was 62670 msec. So 63sec cycle should work.
+
+I (5710001) UART_APP: UART marker: BEGIN
+I (5710001) GATTS_TABLE_DEMO: BLE Notify: 1 samples (payload=7 bytes) conn=0 first: type=1, t=0 ms, adc=0
+I (5710011) GATTS_TABLE_DEMO: ESP_GATTS_CONF_EVT, status = 0, attr_handle 44
+I (5710021) UART_APP: RAW LINE: '0,690'
+I (5710021) UART_APP: UART CSV → msec=0 | ADC=690
+I (5710021) GATTS_TABLE_DEMO: BLE Notify: 1 samples (payload=7 bytes) conn=0 first: type=0, t=0 ms, adc=690
+I (5710041) GATTS_TABLE_DEMO: ESP_GATTS_CONF_EVT, status = 0, attr_handle 44
+I (5710191) UART_APP: RAW LINE: '100,689'
+
+-----
+
+I (5772451) GATTS_TABLE_DEMO: BLE Notify: 1 samples (payload=7 bytes) conn=0 first: type=0, t=59700 ms, adc=689
+I (5772461) GATTS_TABLE_DEMO: ESP_GATTS_CONF_EVT, status = 0, attr_handle 44
+I (5772461) UART_APP: RAW LINE: '59800,689'
+I (5772461) UART_APP: UART CSV → msec=59800 | ADC=689
+I (5772471) GATTS_TABLE_DEMO: BLE Notify: 1 samples (payload=7 bytes) conn=0 first: type=0, t=59800 ms, adc=689
+I (5772481) GATTS_TABLE_DEMO: ESP_GATTS_CONF_EVT, status = 0, attr_handle 44
+I (5772661) UART_APP: RAW LINE: '59900,689'
+I (5772661) UART_APP: UART CSV → msec=59900 | ADC=689
+I (5772661) GATTS_TABLE_DEMO: BLE Notify: 1 samples (payload=7 bytes) conn=0 first: type=0, t=59900 ms, adc=689
+I (5772671) GATTS_TABLE_DEMO: ESP_GATTS_CONF_EVT, status = 0, attr_handle 44
+I (5772671) UART_APP: UART marker: END

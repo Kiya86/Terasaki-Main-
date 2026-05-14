@@ -119,7 +119,7 @@ void main(void) {
                     lmp91000_start_ca_measurement();
                     measurement_set_adc_source(MEAS_ADC_SOURCE_RC7);
                     uart_write_string("BEGIN\n");
-                    run_measurement_loop(60, 100); //60 sec ADC on
+                    run_measurement_loop(600, 100); //60 sec ADC on
                     break;
                 case 0x15:
                     mux_select(5);
@@ -128,7 +128,7 @@ void main(void) {
                     lmp91000_start_ca_measurement();
                     measurement_set_adc_source(MEAS_ADC_SOURCE_RC7);
                     uart_write_string("BEGIN\n");
-                    run_measurement_loop(60, 100); //60 sec ADC on
+                    run_measurement_loop(600, 100); //60 sec ADC on
                     break;
                 case 0x16:
                     mux_select(6);
@@ -137,7 +137,7 @@ void main(void) {
                     lmp91000_start_ca_measurement();
                     measurement_set_adc_source(MEAS_ADC_SOURCE_RC7);
                     uart_write_string("BEGIN\n");
-                    run_measurement_loop(60, 100); //60 sec ADC on
+                    run_measurement_loop(600, 100); //60 sec ADC on
                     break;
                 case 0x17:
                     mux_select(7);
@@ -146,7 +146,7 @@ void main(void) {
                     lmp91000_start_ocp_measurement();
                     measurement_set_adc_source(MEAS_ADC_SOURCE_RA1);
                     uart_write_string("BEGIN\n");
-                    run_measurement_loop(60, 100); //60 sec ADC on
+                    run_measurement_loop(600, 100); //60 sec ADC on
                     break;
                 case 0x18:
                     mux_select(8);
@@ -155,7 +155,7 @@ void main(void) {
                     lmp91000_start_ca_measurement();
                     measurement_set_adc_source(MEAS_ADC_SOURCE_RC7);
                     uart_write_string("BEGIN\n");
-                    run_measurement_loop(60, 100); //60 sec ADC on
+                    run_measurement_loop(600, 100); //60 sec ADC on
                     break;
                     
                 case 0x00:

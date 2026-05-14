@@ -431,7 +431,7 @@ public sealed partial class CalibrationPage : Page
             lock (_liveT) { _liveT.Clear(); _liveI.Clear(); }
 
             SetStatus(statusTb,
-                $"{stepName} — CH{ch} {ChNames[chIdx]} ({chIdx + 1}/6) — recording…");
+                $"{stepName} — CH{ch} {ChNames[chIdx]} ({chIdx + 1}/6) — recording…"); 
 
             // ── Active 60s collection window ──────────────────────────────
             // Graph refreshes every 1s. Timer counts 0→60s.
