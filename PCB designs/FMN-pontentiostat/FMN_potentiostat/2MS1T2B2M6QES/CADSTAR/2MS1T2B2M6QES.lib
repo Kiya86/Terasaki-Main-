@@ -1,0 +1,17 @@
+.2MS1T2B2M6QES :1 ;Toggle Switches SPDT ON-ON RT ANG PC
+"2MS1T2B2M6QES"
+*STM S
+*NGS
+*PNM 1=1 2=2 3=3 4=MH1 5=MH2
+*PLB 1="NO" 2="COM" 3="NC" 4="MH1" 5="MH2"
+*MXP 5
+*DFN 2MS1T2B2M6QES
+~!Mouser Part Number (118-2MS1T2B2M6QES)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T2B2M6QES?qs=B6kkDfuK7%2FCL9Qu4QtdHDw%3D%3D)
+~!Manufacturer_Name (Dailywell)
+~!Manufacturer_Part_Number (2MS1T2B2M6QES)
+~!Link Datasheet (https://www.mouser.co.il/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf)
+~!Height (5.59mm)
+~!3D_Model (2MS1T2B2M6QES)
+"2MS1T2B2M6QES"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

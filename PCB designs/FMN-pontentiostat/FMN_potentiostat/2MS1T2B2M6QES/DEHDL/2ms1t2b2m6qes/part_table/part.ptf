@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2MS1T2B2M6QES'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Dailywell", "2MS1T2B2M6QES" (!) = "", "2MS1T2B2M6QES", "Other", "118-2MS1T2B2M6QES", "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T2B2M6QES?qs=B6kkDfuK7%2FCL9Qu4QtdHDw%3D%3D", "Toggle Switches SPDT ON-ON RT ANG PC", "https://www.mouser.co.il/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf", "5.59 mm"
+END_PART
+
+END.

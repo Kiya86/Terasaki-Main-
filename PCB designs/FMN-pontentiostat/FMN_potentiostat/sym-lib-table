@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FMNSymLib")(type "KiCad")(uri "C:/Multiplexer_coding/FMN-pontentiostat/FMNSymLib.kicad_sym")(options "")(descr ""))
+)
