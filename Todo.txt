@@ -30,3 +30,12 @@
 --------------------fPCB(05/28)---------------------
 -3WE,1RE,1CE
 - 3.3V, ESP-S3, AD5940, Multiplexer(1:3), electrode interface
+
+--Heat sinks---
+Option 1:
+
+https://www.amazon.com/Easycargo-Heatsink-Conductive-Adhesive-9mmx9mmx12mm/dp/B07JJK92DJ/ref=sr_1_21_sspa?crid=OJPOTMLZW5RM&dib=eyJ2IjoiMSJ9.OuDBYziQ1-NC1FDR8u-E3HnU93c-jWMlnW7gGgmmClkQXLkpTxPztI_iVZqI6bqq5YB7GWjuVg4-Dzqc7sfLKI8lls4OC3ODVtp2E6Bfo5AeEsBwKdXOcOVhTys0s19Aah7ZGffgew9Hb8qGF8d1aDUMuf0ITHW47YqDMvptfHmV6XXmjiRgFRlk9Z1uWq-EKD9dbwRt0mnN8js0BZ7Lz_8mKLr6XHeeaNF3SnNHlEo.wS6560FCbw6xkF6mS-iGq46jyT3APBMnc6bQHDzz4Uc&dib_tag=se&keywords=TMC2209+heatsink&qid=1779505940&sprefix=tmc2209+heatsink%2Caps%2C273&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1
+
+Option 2:
+
+https://www.amazon.com/Heatsink-FYSETC-Heatsinks-Raspberry-Driver-10/dp/B07FDWCR12/ref=sr_1_6?crid=OJPOTMLZW5RM&dib=eyJ2IjoiMSJ9.OuDBYziQ1-NC1FDR8u-E3HnU93c-jWMlnW7gGgmmClkQXLkpTxPztI_iVZqI6bqq5YB7GWjuVg4-Dzqc7sfLKI8lls4OC3ODVtp2E6Bfo5AeEsBwKdXOcOVhTys0s19Aah7ZGffgew9Hb8qGF8d1aDUMuf0ITHW47YqDMvptfHmV6XXmjiRgFRlk9Z1uWq-EKD9dbwRt0mnN8js0BZ7Lz_8mKLr6XHeeaNF3SnNHlEo.wS6560FCbw6xkF6mS-iGq46jyT3APBMnc6bQHDzz4Uc&dib_tag=se&keywords=TMC2209+heatsink&qid=1779505940&sprefix=tmc2209+heatsink%2Caps%2C273&sr=8-6
