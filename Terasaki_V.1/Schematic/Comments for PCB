@@ -1,0 +1,14 @@
+Comments for the PCB baord _052426
+
+LM61495-Q1
+- Reset - R - GND? or Reset - R - Output?
+
+AD5941
+- AVDD, no L and R? (https://wiki.analog.com/_media/resources/eval/user-guides/eval-ad5940/hardware/02_050193b.pdf , The evaluation board added L and R for AVDD)
+
+ESP32-S3
+- why do we need V_ADC? ADC is not used in ESP32.
+If ADC is needed, why not use ADC on AD5941? it is 16-bit while ESP is 12 bit.
+
+MUX
+- Is it okay to put A2 float?
